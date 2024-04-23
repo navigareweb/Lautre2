@@ -15,7 +15,7 @@ export default function Home() {
         <h3 className={styles.text}>HENRI DE TOULOUSE-LAUTREC</h3>
         <audio
           controls
-          src="/HENRI-DE-TOULOUSE-LAUTREC-2.mp3"
+          src="/HENRI-DE-TOULOUSE-LAUTREC.mp3"
           className={styles.audio}
         >
           Your browser does not support the
