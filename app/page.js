@@ -10,6 +10,7 @@ export default function Home() {
           src="/400x600.jpg"
           width={400}
           height={600}
+          priority={true}
           alt="Locandina"
         ></Image>
         <br></br>
