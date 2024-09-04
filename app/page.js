@@ -7,7 +7,7 @@ export default function Home() {
       <div className={styles.description}>
         <h3 className={styles.text}>HENRI DE TOULOUSE-LAUTREC</h3>
         <Image
-          src={"/400x600.jpg"}
+          src="/400x600.jpg"
           width={400}
           height={600}
           alt="Locandina"
