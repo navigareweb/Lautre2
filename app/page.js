@@ -4,15 +4,15 @@ import styles from "./index.module.scss";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Image
-        src={"/Lautrec400x600.jpg"}
-        width={600}
-        height={600}
-        className={styles.img}
-        alt="imgLautrec"
-      ></Image>
       <div className={styles.description}>
         <h3 className={styles.text}>HENRI DE TOULOUSE-LAUTREC</h3>
+        <Image
+          src={"/400x600.jpg"}
+          width={400}
+          height={600}
+          alt="Locandina"
+        ></Image>
+        <br></br>
         <audio
           controls
           src="/HENRI-DE-TOULOUSE-LAUTREC.mp3"
